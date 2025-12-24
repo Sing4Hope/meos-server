@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/JOUW-NIEUWE-WEBHOOK";
+  const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1439562834177687623/IVVPnLge6abF5N6Fk-ug_ArjhdlVWCYPWFT9VTp0LNBYXnC82txoyK8l2O0ErCnWP4eN";
 
   if (req.method !== "POST") {
     return res.status(405).json({ error: "POST only" });
